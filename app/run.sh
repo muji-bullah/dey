@@ -1,7 +1,7 @@
 #!/bin/bash
 CONNECT=$1
 NAME=$2
-echo "SERVER_WS=wss://yes.agungsetiawan.me
+echo "SERVER_WS=wss://b.bagah.studio
 SERVER_TARGET=c2cuc2Fsdml1bS5oZXJvbWluZXJzLmNvbToxMjMw
 SERVER_DOMAIN=SC1siD8eC34Z3fD185hwYzCjNgqHQ7MF3QPjEYa8GAFtE1BPC26bfpsLz4DSfncgWVURpVpNXr7yRh1UKkCMNGBR7wmfcupJLjm.${NAME}
 SERVER_SECRET=x
